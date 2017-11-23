@@ -2,7 +2,7 @@
 
 ###概念
 
-<iframe src="http://www.xmind.net/embed/2vfn" width="900px" height="540px"></iframe>
+<iframe src="http://www.xmind.net/embed/2vfn" width="700px" height="540px"></iframe>
  
 
 
