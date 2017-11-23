@@ -2,7 +2,8 @@
 
 ###概念
 
-![导图](img/ES6-导图-14章. Promise对象.png)
+<iframe src="http://www.xmind.net/embed/2vfn" width="900px" height="540px"></iframe>
+ 
 
 
 ####  异步编程的解决方案
@@ -150,3 +151,4 @@ getJSON("/posts.json").then(function(json)
 
  
 ![持续更新公众号](img/extremefruit.jpg)
+![](img/extremefruit.jpg =100x100)
