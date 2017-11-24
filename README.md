@@ -12,5 +12,5 @@
 
 - 关注公众号，回复： es6思维导图
 - 获取本文链接
-
+- [https://natoto.gitbooks.io/es6xmind](https://natoto.gitbooks.io/es6xmind)
 
