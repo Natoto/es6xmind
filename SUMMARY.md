@@ -14,7 +14,7 @@
 * [12. Proxy和Reflect](proxy.md)
 * [13. Reflect](reflect.md)
 * [14. promise对象-导图](promise.md)
-* [15. Iterator和for...of循环](iterator.md)
+* [15. Iterator和for...of循环 - 导图](iterator.md)
 * [16. generator](generator.md)
 * [17. Generator 函数的异步应用](generator-async.md)
 * [18. async函数](async.md)
