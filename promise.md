@@ -2,7 +2,7 @@
 
 ###概念
 
-<iframe src="http://www.xmind.net/embed/2vfn" width="700px" height="540px"></iframe>
+<iframe src="https://www.xmind.net/embed/2vfn" width="100%" height="540px"></iframe>
  
 
 
@@ -150,5 +150,4 @@ getJSON("/posts.json").then(function(json)
 ```
 
  
-![持续更新公众号](img/extremefruit.jpg)
-![](img/extremefruit.jpg =100x100)
+![持续更新公众号](img/extremefruit.jpg) 

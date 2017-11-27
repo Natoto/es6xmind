@@ -1,6 +1,6 @@
 ## ES6-导图-15章 Iterator和for...of循环
 
-![image](img/ES6-导图-15章 Iterator和for...of循环.png)
+![image](img/ES6-导图-第15章 Iterator和for...of循环.png)
 
 ### 1. Iterator遍历器概念
 ####  来源

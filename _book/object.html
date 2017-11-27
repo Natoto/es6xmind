@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title> 9. 对象的扩展 · GitBook</title>
+        <title> 9. 对象的扩展-导图 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -198,7 +198,7 @@
                 <a href="object.html">
             
                     
-                     9. 对象的扩展
+                     9. 对象的扩展-导图
             
                 </a>
             
@@ -211,7 +211,7 @@
                 <a href="symbol.html">
             
                     
-                    10. symbol
+                    10. symbol-导图
             
                 </a>
             
@@ -224,7 +224,7 @@
                 <a href="set-map.html">
             
                     
-                    11. Set 和 Map 数据结构
+                    11. Set 和 Map 数据结构-导图
             
                 </a>
             
@@ -237,7 +237,7 @@
                 <a href="proxy.html">
             
                     
-                    12. Proxy和Reflect
+                    12. Proxy和Reflect-导图
             
                 </a>
             
@@ -245,9 +245,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.13" data-path="reflect.md">
+        <li class="chapter " data-level="1.13" data-path="reflect.html">
             
-                <span>
+                <a href="reflect.html">
             
                     
                     13. Reflect
@@ -276,7 +276,7 @@
                 <a href="iterator.html">
             
                     
-                    15. Iterator和for...of循环
+                    15. Iterator和for...of循环 - 导图
             
                 </a>
             
@@ -549,7 +549,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." > 9. 对象的扩展</a>
+        <a href="." > 9. 对象的扩展-导图</a>
     </h1>
 </div>
 
@@ -565,16 +565,20 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="&#x5BF9;&#x8C61;&#x7684;&#x6269;&#x5C55;">&#x5BF9;&#x8C61;&#x7684;&#x6269;&#x5C55;</h1>
+<iframe src="https://www.xmind.net/embed/xnrY" width="100%" height="540px"></iframe>
+
+
+
 <h2 id="&#x5C5E;&#x6027;&#x7684;&#x7B80;&#x6D01;&#x8868;&#x793A;&#x6CD5;">&#x5C5E;&#x6027;&#x7684;&#x7B80;&#x6D01;&#x8868;&#x793A;&#x6CD5;</h2>
 <p>ES6&#x5141;&#x8BB8;&#x76F4;&#x63A5;&#x5199;&#x5165;&#x53D8;&#x91CF;&#x548C;&#x51FD;&#x6570;&#xFF0C;&#x4F5C;&#x4E3A;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x4E66;&#x5199;&#x66F4;&#x52A0;&#x7B80;&#x6D01;&#x3002;</p>
-<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> foo = <span class="hljs-string">&apos;bar&apos;</span>;
-<span class="hljs-keyword">var</span> baz = {foo};
-baz <span class="hljs-comment">// {foo: &quot;bar&quot;}</span>
+<pre><code>javascript
+var foo = &apos;bar&apos;;
+var baz = {foo};
+baz // {foo: &quot;bar&quot;}
 
-<span class="hljs-comment">// &#x7B49;&#x540C;&#x4E8E;</span>
-<span class="hljs-keyword">var</span> baz = {foo: foo};
-</code></pre>
-<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x8868;&#x660E;&#xFF0C;ES6&#x5141;&#x8BB8;&#x5728;&#x5BF9;&#x8C61;&#x4E4B;&#x4E2D;&#xFF0C;&#x53EA;&#x5199;&#x5C5E;&#x6027;&#x540D;&#xFF0C;&#x4E0D;&#x5199;&#x5C5E;&#x6027;&#x503C;&#x3002;&#x8FD9;&#x65F6;&#xFF0C;&#x5C5E;&#x6027;&#x503C;&#x7B49;&#x4E8E;&#x5C5E;&#x6027;&#x540D;&#x6240;&#x4EE3;&#x8868;&#x7684;&#x53D8;&#x91CF;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x53E6;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
+// &#x7B49;&#x540C;&#x4E8E;
+var baz = {foo: foo};
+</code></pre><p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x8868;&#x660E;&#xFF0C;ES6&#x5141;&#x8BB8;&#x5728;&#x5BF9;&#x8C61;&#x4E4B;&#x4E2D;&#xFF0C;&#x53EA;&#x5199;&#x5C5E;&#x6027;&#x540D;&#xFF0C;&#x4E0D;&#x5199;&#x5C5E;&#x6027;&#x503C;&#x3002;&#x8FD9;&#x65F6;&#xFF0C;&#x5C5E;&#x6027;&#x503C;&#x7B49;&#x4E8E;&#x5C5E;&#x6027;&#x540D;&#x6240;&#x4EE3;&#x8868;&#x7684;&#x53D8;&#x91CF;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x53E6;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#x3002;</p>
 <pre><code class="lang-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">f</span>(<span class="hljs-params">x, y</span>) </span>{
   <span class="hljs-keyword">return</span> {x, y};
 }
@@ -1470,7 +1474,7 @@ obj.foo = <span class="hljs-number">123</span>;
                 </a>
                 
                 
-                <a href="symbol.html" class="navigation navigation-next " aria-label="Next page: 10. symbol">
+                <a href="symbol.html" class="navigation navigation-next " aria-label="Next page: 10. symbol-导图">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -1481,7 +1485,7 @@ obj.foo = <span class="hljs-number">123</span>;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":" 9. 对象的扩展","level":"1.9","depth":1,"next":{"title":"10. symbol","level":"1.10","depth":1,"path":"symbol.md","ref":"symbol.md","articles":[]},"previous":{"title":" 8. 数组的扩展","level":"1.8","depth":1,"path":"array.md","ref":"array.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"object.md","mtime":"2017-11-21T02:23:51.234Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-23T10:11:31.823Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":" 9. 对象的扩展-导图","level":"1.9","depth":1,"next":{"title":"10. symbol-导图","level":"1.10","depth":1,"path":"symbol.md","ref":"symbol.md","articles":[]},"previous":{"title":" 8. 数组的扩展","level":"1.8","depth":1,"path":"array.md","ref":"array.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"object.md","mtime":"2017-11-27T01:38:43.149Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2017-11-27T01:20:37.612Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

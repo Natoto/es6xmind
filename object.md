@@ -1,16 +1,23 @@
 # 对象的扩展
 
+
+<iframe src="https://www.xmind.net/embed/xnrY" width="100%" height="540px"></iframe>
+ 
+
+
 ## 属性的简洁表示法
 
 ES6允许直接写入变量和函数，作为对象的属性和方法。这样的书写更加简洁。
 
-```javascript
+```
+javascript
 var foo = 'bar';
 var baz = {foo};
 baz // {foo: "bar"}
 
 // 等同于
 var baz = {foo: foo};
+
 ```
 
 上面代码表明，ES6允许在对象之中，只写属性名，不写属性值。这时，属性值等于属性名所代表的变量。下面是另一个例子。
